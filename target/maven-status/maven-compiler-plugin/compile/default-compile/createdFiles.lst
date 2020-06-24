@@ -1,0 +1,9 @@
+com\menlo\tech\test\config\ChromeDriverFactoryConfig.class
+com\menlo\tech\test\WebElements.class
+menlo\tech\test\MenloQuisitiveTest.class
+com\menlo\tech\test\AbstractTest.class
+com\menlo\tech\test\base\AbstractMenloQuisitiveSeleniumTest.class
+com\menlo\tech\test\config\TestConfig.class
+menlo\tech\test\ui\po\MenloQusitiveHomePageObject.class
+com\menlo\tech\test\AbstractSeleniumTest.class
+com\menlo\tech\test\config\SeleniumConfig.class

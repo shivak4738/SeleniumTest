@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37558" started-at="2020-06-23T14:17:02Z" finished-at="2020-06-23T14:17:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37558" started-at="2020-06-23T14:17:02Z" finished-at="2020-06-23T14:17:40Z">
+      <class name="test.menlo.tech.MenloQuisitiveTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="24" started-at="2020-06-23T19:47:02Z" finished-at="2020-06-23T19:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="778" started-at="2020-06-23T19:47:02Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-23T19:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="initDriver" is-config="true" duration-ms="8458" started-at="2020-06-23T19:47:03Z" finished-at="2020-06-23T19:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="setup" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:12Z" finished-at="2020-06-23T19:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-06-23T19:47:12Z" finished-at="2020-06-23T19:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsTextPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testIsTextPresent()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="testIsTextPresent" duration-ms="26690" started-at="2020-06-23T19:47:12Z" finished-at="2020-06-23T19:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsTextPresent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2020-06-23T19:47:38Z" finished-at="2020-06-23T19:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsTextPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testIsSolutionsDropDownPresent()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="testIsSolutionsDropDownPresent" duration-ms="741" started-at="2020-06-23T19:47:38Z" finished-at="2020-06-23T19:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSolutionsDropDownPresent -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:38Z" finished-at="2020-06-23T19:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsSolutionsDropDownPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-23T19:47:39Z" finished-at="2020-06-23T19:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsSolutionsDropDownPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testIsIndustriesDropDownPresent()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="testIsIndustriesDropDownPresent" duration-ms="286" started-at="2020-06-23T19:47:39Z" finished-at="2020-06-23T19:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsIndustriesDropDownPresent -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:39Z" finished-at="2020-06-23T19:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsIndustriesDropDownPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:39Z" finished-at="2020-06-23T19:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsIndustriesDropDownPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:39Z" finished-at="2020-06-23T19:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsCompanyDropDownPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testIsCompanyDropDownPresent()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="testIsCompanyDropDownPresent" duration-ms="496" started-at="2020-06-23T19:47:39Z" finished-at="2020-06-23T19:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsCompanyDropDownPresent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:40Z" finished-at="2020-06-23T19:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.menlo.tech.MenloQuisitiveTest.testIsCompanyDropDownPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:test.menlo.tech.MenloQuisitiveTest@1a18f1b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-23T19:47:40Z" finished-at="2020-06-23T19:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- test.menlo.tech.MenloQuisitiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
