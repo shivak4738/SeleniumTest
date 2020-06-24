@@ -1,0 +1,4 @@
+[submodule "Selenium"]
+	path = Selenium
+	url = E:/Automation/Selenium
+	branch = master
