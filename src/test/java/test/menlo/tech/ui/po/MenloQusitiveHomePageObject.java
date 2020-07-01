@@ -8,7 +8,6 @@ public class MenloQusitiveHomePageObject {
 
 	private WebDriver driver;
 
-
 	@FindBy(xpath="//*[@id=\"menu-item-12243\"]/a")
 	private WebElement solutionsDropdownElement;
 
